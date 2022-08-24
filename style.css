@@ -74,8 +74,20 @@ body{
         height: 100vh;
         margin: 0 auto;
         padding: 0;
+                
+    }
+    /* Biodata  */
+    .biodata{
         
-
+        background-image: url("img/wallpaperflare.com_wallpaper.jpg");
+        background-size: cover;
+        height: 755px;
+  
+        background-repeat: no-repeat;
+       
+       
+    }.biodata h1{
+        max-width: 100%;
     }
     .wrapper {
         margin-top: 2rem;
