@@ -585,6 +585,10 @@ video {
   }
 }
 
+.m-4 {
+  margin: 1rem;
+}
+
 .text-center {
   text-align: center;
 }
