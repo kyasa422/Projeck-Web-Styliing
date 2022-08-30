@@ -1,85 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/tailwindcss.css">
+        <title>home</title>
+    </head>
+    <body class="bg-gradient-to-r from-[#5b86e5eb] to-[#36d1dcb3] font-silkscreen text-base">
+        <nav class="relative flex justify-between items-center p-3 bg-blue-600 text-white z-20">
+            <p class="text-sm md:text-base">Agus Setiawan</p>
+            <button id="nav-toggle" class="lg:hidden"> <i class="fa-solid fa-bars"></i> </button>
 
-    <!-- font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
-    <!-- Icon -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
-        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-   
-
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="../style1.css">
-    <title>home</title>
-</head>
-
-
-<body>
-    <nav>
-        <p>Agus Setiawan</p>
-            <ul>
+            <ul class="absolute bg-blue-600 w-full right-0 top-10 p-3 transition-all duration-300 overflow-hidden transform scale-y-0 ease-in-out origin-top lg:relative lg:transform-none lg:w-auto lg:bg-none lg:flex lg:top-0 lg:gap-x-3" id="nav-menu">
                 <li><a href="#">Biodata</a></li>
                 <li><a href="index.html">Home</a></li>
-        
-                
                 <li><a href="page3.html">Gallery</a></li>
                 <li><a href="contact.html">contact</a></li>
             </ul>
-    </nav>
+        </nav>
+        <div id="nav-outside-toggle" class="absolute z-10"></div>
 
-        <div class="biodata">
-            <h3 class="text-5xl text-red-400">Siapa saya</h3>
-            <h1>Agus Setiawan</h1>
-
+        <div class="h-screen bg-[url('../img/wallpaperflare.com_wallpaper.jpg')] bg-cover bg-no-repeat">
+            <h3 class="text-4xl text-red-400">Siapa saya</h3>
+            <h1 >Agus Setiawan</h1>
         </div>
 
-    <div class="container ">
-
-       <div class="wrapper grid">
-            <div class="card text-center grid-cols-3 md:grid-cols-6 ">
-                <h2>Youtube</h2>
-                <i class="fa-brands fa-youtube icons"></i>
+        <div class="grid grid-cols-1 mx-3 mt-8 gap-3 md:grid-cols-2 lg:grid-cols-3">
+            <div class="w-100 bg-[#222] text-center border border-red-700 h-[15rem] p-rem text-white">
+                <h2 class="mt-[1rem]">Youtube</h2>
+                <i class="fa-brands fa-youtube icons text-[24px]"></i>
                 <p class="text-red-400">Agus Setiawan <br> Youtube</p>
-                <button class="btn">Follow</button>
+                <button class="mt-[16px] p-[8px] cursor-pointer w-full text-[#5db1ff] border-none transform hover:bg-[#3765ff] hover:text-[#222] hover:rotate-[3deg]">Follow</button>
             </div>
-              
-            <div class="card text-center grid-cols-3 md:grid-cols-6">
-                <h2>Youtube</h2>
-                <i class="fa-brands fa-twitter icons"></i>
-                <p>Agus Setiawan <br> Tweet</p>
-                <button class="btn">Follow</button>
+            <div class="w-100 bg-[#222] text-center border border-red-700 h-[15rem] p-rem text-white">
+                <h2 class="mt-[1rem]">Youtube</h2>
+                <i class="fa-brands fa-youtube icons text-[24px]"></i>
+                <p class="text-red-400">Agus Setiawan <br> Youtube</p>
+                <button class="mt-[16px] p-[8px] cursor-pointer w-full text-[#5db1ff] border-none transform hover:bg-[#3765ff] hover:text-[#222] hover:rotate-[3deg]">Follow</button>
             </div>
+            <div class="w-100 bg-[#222] text-center border border-red-700 h-[15rem] p-rem text-white">
+                <h2 class="mt-[1rem]">Youtube</h2>
+                <i class="fa-brands fa-youtube icons text-[24px]"></i>
+                <p class="text-red-400">Agus Setiawan <br> Youtube</p>
+                <button class="mt-[16px] p-[8px] cursor-pointer w-full text-[#5db1ff] border-none transform hover:bg-[#3765ff] hover:text-[#222] hover:rotate-[3deg]">Follow</button>
+            </div>
+            <div class="w-100 bg-[#222] text-center border border-red-700 h-[15rem] p-rem text-white">
+                <h2 class="mt-[1rem]">Youtube</h2>
+                <i class="fa-brands fa-youtube icons text-[24px]"></i>
+                <p class="text-red-400">Agus Setiawan <br> Youtube</p>
+                <button class="mt-[16px] p-[8px] cursor-pointer w-full text-[#5db1ff] border-none transform hover:bg-[#3765ff] hover:text-[#222] hover:rotate-[3deg]">Follow</button>
+            </div>
+        </div>
 
-            <div class="card text-center grid-cols-3 md:grid-cols-6">
-                <h2>Youtube</h2>
-                <i class="fa-brands fa-whatsapp icons"></i>
-                <p>Agus Setiawan <br> whatsapp</p>
-                <button class="btn">Follow</button>
-            </div>
+        <footer class="mt-8 text-center">
+            <p>&copy; Agus Setiawan | Jakarta</p>
+        </footer>
 
-            <div class="card text-center grid-cols-3 md:grid-cols-6">
-                <h2>Youtube</h2>
-                <i class="fa-brands fa-instagram icons"></i>
-                <p>Agus Setiawan <br> Instagram</p>
-                <button class="btn">Follow</button>
-            </div>
-       </div>
-    </div>
-
-    <main>
- 
-    </main>
-    <footer>
-        <p>
-            &copy;
-        </p>
-    </footer>
-</body>
+        <script src="./js/script.js"></script>
+    </body>
 </html>
