@@ -2,7 +2,11 @@
 module.exports = {
   content: ['./public/**/*.{html,js}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'silkscreen': ['Silkscreen', 'cursive']
+      }
+    },
   },
   plugins: [],
 }
